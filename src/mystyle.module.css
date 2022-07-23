@@ -1,0 +1,122 @@
+.navbar{
+    height: 30px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between; 
+    text-emphasis-color: white;
+}
+
+.app{
+    padding: 20px 100px;
+    background-image: url('176-1763847_gfx-background-view-cool-background-wallpaper-cool-gfx.png');
+    background-attachment: fixed;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    min-height: 100vh; 
+}
+
+.navbarlinks{
+    border: 25px;
+    transform: scale(1,1);
+    font-size: 25px;
+    color: white;
+}
+.linkstyle{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+.headingstyle{
+    color:white
+}
+.songcard{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.609);
+    border-color: black;
+    border-width: 4px;
+    padding: 25px;
+    font-family: sans-serif;
+    margin-top: 2px;
+}
+.playlist{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.609);
+    border-color: black;
+    border-width: 4px;
+    padding: 25px;
+    font-family: sans-serif;
+    margin-top: 2px;
+}
+
+.playlistname{
+    background-color: white;
+}
+
+.loginformstyle{ 
+margin-top: 5%;
+border: 2px solid white;
+border-radius: 25px;
+background-color: rgba(255, 255, 255, 0.685);
+padding:10px;
+/* display: inline block; */
+text-align: center;
+width: 20%; 
+/* margin-left: 25%; */
+}
+.list{
+    cursor: pointer;
+    border-radius: 12px; /*Alex added*/
+    color: black; /*Alex added*/
+    padding: 10px 10px;/*Alex added*/
+    text-align: left;/*Alex added*/
+    text-decoration: none;/*Alex added*/
+    display: inline-block;/*Alex added*/
+    font-size: 16px;/*Alex added*/
+    margin-bottom: 10px;
+    border-color: black;
+    width: 26%;/*Alex added*/
+    transition-duration: 0.2s; /*Alex added*/
+    background-color: white;
+    display: block;
+}
+.searchbar{
+    margin-top: 40px;
+}
+
+.songdisplay{
+    display:grid;
+       grid-template-columns: auto auto; 
+      grid-template-columns: repeat(2,618px);
+      grid-template-rows: repeat(5,350px);
+      grid-column-gap: 5px;
+        grid-row-gap: 5px;
+}
+
+.logincard{
+    background-color: black;
+    margin-left: 300px;
+    display: flex;
+    flex: column;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.items{
+    background-color: null;
+    color: white;
+    font-size: medium;
+}
+
+.mainpage{
+    background-color: null
+}
+
+.audio{
+    background-color: black;
+}
+audio{
+    height: 40px;
+}
